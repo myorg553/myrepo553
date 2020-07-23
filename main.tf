@@ -1,19 +1,3 @@
-/**************************************************************************************************************************************
-*   1.  VCN   myvcn 
-*       Compartment - root compartment
-*       Name: DemoVCN
-*       CIDR - 10.1.0.0/16,
-*       Public Subnet - 10.1.0.0/24 with security list opened with ports 22,80
-*       Internet GW + Proper Route
-*
-*   2.  Compute
-*       1 x Small Compute  + Setup Apache Web with return host name as string
-*
-*   *.  Output - Public IP of the web server
-*
-*
-*****************************************************************************************************************************************/
-
 variable "tenancy_ocid" {
                                 default="ocid1.compartment.oc1..aaaaaaaa3pkequhrpjjdqd4i7ldhs6piblz2hiadbk5i3juy3xautlmzypxa"
 }
